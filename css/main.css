@@ -22,7 +22,6 @@ a:hover, a:active {
 table, tr, th, td, caption {
     border: 1px solid #eee;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
     border-collapse: collapse;
     padding: 2rem;
 }
