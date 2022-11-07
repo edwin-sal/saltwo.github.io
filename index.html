@@ -95,20 +95,25 @@
         <h2>Guess how much do you know me!</h2>
         <fieldset>
           <legend>You must answer/select all fields</legend>
-          <form action="" method="get">
+          <form action="https://httpbin.org/post" method="post">
             <p>
               <label for="favoriteColor">Favorite Color</label>
-              <input type="text" name="favoriteColor" id="favoriteColor" />
+              <input
+                type="text"
+                name="favoriteColor"
+                id="favoriteColor"
+                required
+              />
             </p>
 
             <p>
               <label for="age">Age</label>
-              <input type="number" name="age" id="age" min="1" />
+              <input type="number" name="age" id="age" min="1" required />
             </p>
 
             <p>
               <label for="rank">Rank in Mobile Legends</label>
-              <select name="rank" id="rank">
+              <select name="rank" id="rank" required>
                 <optgroup label="Bobo">
                   <option value="warrior">Warrior</option>
                   <option value="elite">Elite</option>
@@ -133,12 +138,7 @@
               <input type="radio" name="favProgLang" id="java" value="java" />
               <label for="java">Java</label>
 
-              <input
-                type="radio"
-                name="favProgLang"
-                id="python"
-                value="python"
-              />
+              <input type="radio" name="favProgLang" id="python" value="python" />
               <label for="python">Python</label>
 
               <input type="radio" name="favProgLang" id="c++" value="c++" />
@@ -186,8 +186,18 @@
 
               <br />
 
-              <textarea name="note" id="note" cols="30" rows="6" placeholder="Start typing here..."></textarea>
+              <textarea
+                name="note"
+                id="note"
+                cols="30"
+                rows="6"
+                placeholder="Start typing here..."
+                required
+              ></textarea>
             </p>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
           </form>
         </fieldset>
       </section>
