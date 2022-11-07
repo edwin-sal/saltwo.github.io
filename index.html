@@ -13,7 +13,7 @@
     <title>My personal Portfolio</title>
   </head>
 
-  <body>  
+  <body>
     <header>
       <section id="header">
         <h1>Edwin Bañago <br />Student <em>& maybe a Developer</em></h1>
@@ -84,8 +84,65 @@
           </li>
           <li>
             <a href="schedule.html">HTML University Schedule</a>
-          </li>         
+          </li>
         </ul>
+      </section>
+
+      <hr />
+
+      <section id="guess">
+        <h2>Guess how much do you know me!</h2>
+        <fieldset>
+          <legend>You must answer/select all fields</legend>
+          <form action="" method="get">
+            <p>
+              <label for="favoriteColor">Favorite Color</label>
+              <input type="text" name="favoriteColor" id="favoriteColor" />
+            </p>
+
+            <p>
+              <label for="age">Age</label>
+              <input type="number" name="age" id="age" min="1" />
+            </p>
+
+            <p>
+              <label for="rank">Rank in Mobile Legends</label>
+              <select name="rank" id="rank">
+                <optgroup label="Bobo">
+                  <option value="warrior">Warrior</option>
+                  <option value="elite">Elite</option>
+                  <option value="master">Master</option>
+                </optgroup>
+                <optgroup label="Medyo Bobo">
+                  <option value="grandmaster">Grandmaster</option>
+                  <option value="epic">Epic</option>
+                  <option value="legend">Legend</option>
+                </optgroup>
+                <optgroup label="Idol">
+                  <option value="mythic">Mythic</option>
+                  <option value="mythicalGlory" selected>Mytical Glory</option>
+                </optgroup>
+              </select>
+            </p>
+
+            <p>
+              Favorite Programming Language
+              <br />
+
+              <input type="radio" name="favProgLang" id="java" value="java"/>
+              <label for="java">Java</label>
+
+              <input type="radio" name="favProgLang" id="python" value="python"/>
+              <label for="python">Python</label>
+
+              <input type="radio" name="favProgLang" id="c++" value="c++"/>
+              <label for="c++">C++</label>
+
+              <input type="radio" name="favProgLang" id="javascript" value="javascript"/>
+              <label for="javascript">Javascript</label>
+            </p>
+          </form>
+        </fieldset>
       </section>
 
       <hr />
