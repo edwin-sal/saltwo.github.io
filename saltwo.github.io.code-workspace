@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "saltwo.github.io",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "saltwo.github.io"
+  }
+}
