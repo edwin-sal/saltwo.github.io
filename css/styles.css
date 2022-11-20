@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+  background-color: beige;
+}
+
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+  background-color: #eceff5;
+}
+
+header {
+  background-color: #405897;
+  padding: 0.3rem;
+}
+
+label {
+  color: #8e949e;
+  font-weight: 700;
+}
+
+input {
+  display: inline-block;
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.login {
+  padding: 0.4rem;
+}
+
+.login-btn {
+  display: inline-block;
+  color: white;
+  background-color: #4966b1;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #3c5798;
+  font-size: 0.95rem;
+}
+
+.login-btn:hover {
+  background-color: #4a5d90;
+}
+
+.or {
+  text-align: center;
+}
+
+.or p {
+  display: inline-block;
+  background-color: #eceff5;
+  color: #4b4f56;
+  position: relative;
+  bottom: 0.75rem;
+  padding: 0 1rem;
+}
+
+.or hr {
+  border: none;
+  height: 2px;
+  background-color: #ccd0d5;
+}
+
+.manage-account {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.new-acc a {
+  display: inline-block;
+  background-color: #47b82f;
+  padding: 0.7rem;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #bec3c9;
+  margin: 0.5rem;
+}
+
+.forgot-pass a,
+.forgot-pass a:active,
+.forgot-pass:visited {
+  text-decoration: none;
+  color: #415897;
+}
+
+.forgot-pass a:hover {
+  color: white;
+  background-color: #405897;
+}
+
+.white-bar {
+  height: 20px;
+  background-color: white;
+}
+
+footer {
+  background-color: #444950;
+  font-size: 0.7rem;
+  padding: 0.6rem;
+  color: #bec3c9;
+}
+
+.lang {
+  margin-bottom: 1.5rem;
+}
+
+.lang ul{
+  list-style: none;
+}
+
+.lang ul li a {
+  color: #bec3c9;
+  text-decoration: none;
+  display: block;
+  padding: .1rem;
+}
+
+.lang li a:hover {
+  background-color: #dadde1;
+  color: #1d2129;
+  width: 100%;
+}
+
+.lang .selected {
+  padding: .1rem;
+  font-weight: 600;
+}
+
+.li-column {
+  column-count: 2;
+}
+
+.meta {
+  padding: .1rem;
+  color: white;
+}
+
+/* .testing {
+  color: red;
+  display: block;
+} */
