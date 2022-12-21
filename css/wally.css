@@ -38,7 +38,7 @@ header {
 }
 
 header img {
-  margin-left: 120px;
+  margin-left: 30%;
 }
 
 nav {
@@ -74,20 +74,20 @@ nav a:hover {
 }
 
 .start a {
-  background-color: white;
-  color: #3e85d7;
+  background-color: #3e85d7;
+  color: white;
   text-decoration: none;
   padding: 0.7rem 2rem;
   border-radius: 35px;
   border: 2px solid #3e85d7;
   font-weight: 500;
   font-size: 1.2rem;
-  margin-right: 120px;
+  margin-right: 30%;
 }
 
 .start a:hover {
-  color: white;
-  background-color: #3e85d7;
+  color: #3e85d7;
+  background-color: white;
 }
 
 main {
@@ -105,7 +105,7 @@ main {
   display: flex;
   justify-content: end;
   align-items: center;
-  margin-right: 120px;
+  margin-right: 30%;
 }
 
 .graphic img {
@@ -115,7 +115,7 @@ main {
 
 .info {
   align-self: center;
-  margin-left: 120px;
+  margin-left: 30%;
 }
 
 main a,
@@ -140,13 +140,13 @@ a {
 #caption {
   color: #7b8184;
   font-size: 1.5rem;
-  margin-top: 20px;
+  margin-top: 5%;
 }
 
 main h1 {
   color: #162a3b;
   font-size: 4rem;
-  margin-top: 20px;
+  margin-top: 5%;
   line-height: 5rem;
 }
 
@@ -160,7 +160,7 @@ main a {
   border: 2px solid #3e85d7;
   font-weight: 500;
   font-size: 1.2rem;
-  margin-top: 20px;
+  margin-top: 5%;
 }
 
 main a:hover {
