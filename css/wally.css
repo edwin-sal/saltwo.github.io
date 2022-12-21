@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  height: 100vh;
+  padding: 1rem;
+  grid-template-areas:
+    "header nav start"
+    "content content content";
+  grid-template-columns: 1.2fr 4fr 1.2fr;
+  grid-template-rows: 1fr 4.2fr;
+}
+
+header,
+nav,
+.start,
+main {
+  /* border: 2px solid red; */
+}
+
+header,
+nav,
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  grid-area: header;
+  justify-content: start;
+}
+
+header img {
+  margin-left: 120px;
+}
+
+nav {
+  grid-area: nav;
+}
+
+nav ul {
+  white-space: nowrap;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #162a3b;
+  font-weight: 500;
+  font-size: 1.3rem;
+  
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-shadow: 0 0 0.01px black;
+}
+
+.start {
+  grid-area: start;
+  justify-content: end;
+}
+
+.start a {
+  background-color: white;
+  color: #3e85d7;
+  text-decoration: none;
+  padding: 0.7rem 2rem;
+  border-radius: 35px;
+  border: 2px solid #3e85d7;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-right: 120px;
+}
+
+.start a:hover {
+  color: white;
+  background-color: #3e85d7;
+}
+
+main {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.info,
+.graphic {
+  /* border: 1px solid red; */
+}
+
+.graphic {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 120px;
+}
+
+.graphic img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.info {
+  align-self: center;
+  margin-left: 120px;
+}
+
+main a,
+.start a {
+  white-space: nowrap;
+}
+
+main p,
+h1,
+img,
+a {
+  /* border: 1px solid blue; */
+}
+
+#shopping {
+  color: #39cc96;
+  font-weight: 600;
+  font-size: 1.3rem;
+  white-space: nowrap;
+}
+
+#caption {
+  color: #7b8184;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+main h1 {
+  color: #162a3b;
+  font-size: 4rem;
+  margin-top: 20px;
+  line-height: 5rem;
+}
+
+main a {
+  display: inline-block;
+  background-color: white;
+  color: #3e85d7;
+  text-decoration: none;
+  padding: 0.7rem 2rem;
+  border-radius: 35px;
+  border: 2px solid #3e85d7;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+main a:hover {
+  background-color: #3e85d7;
+  color: white;
+}
