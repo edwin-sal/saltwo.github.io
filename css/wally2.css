@@ -118,9 +118,10 @@ h1 {
   color: #3e85d7;
 }
 
-@media screen and (max-width: 1080px) {
-  header, #illustration {
-    margin-top: 5%;
+@media screen and (max-width: 1200px) {
+  header,
+  #illustration {
+    margin-top: 3%;
   }
 
   nav,
@@ -135,7 +136,7 @@ h1 {
   main {
     grid-template-columns: 1fr;
     grid-template-rows: 0fr 1fr;
-    gap: .2rem;
+    gap: 0.2rem;
   }
 
   #shopping {
@@ -143,17 +144,20 @@ h1 {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   #caption {
-    font-size: 1rem;
+    font-size: .9rem;
   }
   .graphic {
     order: -1;
   }
 
-  #logo {
-    height: 50%;
+  #shopping,
+  h1,
+  #caption,
+  .info a {
+    margin: .3rem 0;
   }
 }
