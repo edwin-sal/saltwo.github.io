@@ -134,6 +134,7 @@ h1 {
 
   main {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
   .graphic {
