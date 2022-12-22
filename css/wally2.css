@@ -118,7 +118,7 @@ h1 {
   color: #3e85d7;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1080px) {
   header, #illustration {
     margin-top: 5%;
   }
