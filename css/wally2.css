@@ -150,8 +150,11 @@ h1 {
   #caption {
     font-size: .9rem;
   }
+
   .graphic {
     order: -1;
+    display: flex;
+    justify-content: center;
   }
 
   #shopping,
