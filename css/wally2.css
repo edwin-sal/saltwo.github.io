@@ -139,4 +139,16 @@ h1 {
   .graphic {
     order: -1;
   }
+
+  #shopping {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #caption {
+    font-size: 1rem;
+  }
 }
