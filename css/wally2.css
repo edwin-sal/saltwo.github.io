@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-rows: 0.2fr 1fr;
+  height: 100vh;
+  margin: 0 6%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 2rem;
+}
+
+li {
+  font-size: 1.1rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+li a {
+  text-decoration: none;
+  color: #162a3b;
+}
+
+li a:hover {
+  text-shadow: 0 0 0.01px #162a3b;
+  text-decoration: overline;
+}
+
+#start-now {
+  /* margin-right: 5%; */
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #3e85d7;
+  background-color: white;
+  padding: 1rem 2.5rem;
+  border: 2.5px solid #3e85d7;
+  border-radius: 30px;
+  white-space: nowrap;
+}
+
+#start-now:hover {
+  background-color: #3e85d7;
+  color: white;
+}
+
+#menu {
+  display: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 5rem;
+}
+
+#shopping,
+h1,
+#caption,
+.info a {
+  margin: 1rem 0;
+}
+
+#illustration {
+  height: 100%;
+  width: 100%;
+}
+
+#shopping {
+  color: #25c689;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+h1 {
+  color: #162a3b;
+  font-size: 4rem;
+}
+
+#caption {
+  color: #61696f;
+  font-size: 1.5rem;
+}
+
+#buy-now {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  background-color: #3e85d7;
+  padding: 1rem 2.5rem;
+  border: 2.5px solid #3e85d7;
+  border-radius: 30px;
+  white-space: nowrap;
+}
+
+#buy-now:hover {
+  background-color: white;
+  color: #3e85d7;
+}
+
+@media screen and (max-width: 1200px) {
+  header, #illustration {
+    margin-top: 5%;
+  }
+
+  nav,
+  #start-now {
+    display: none;
+  }
+
+  #menu {
+    display: inline-block;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  .graphic {
+    order: -1;
+  }
+}
