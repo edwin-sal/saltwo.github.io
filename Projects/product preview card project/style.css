@@ -104,6 +104,10 @@ h1 {
 }
 
 @media (max-width: 800px) {
+  body {
+    padding: 0 1rem;
+  }
+
   main {
     grid-template-columns: 1fr;
     max-height: 750px;
