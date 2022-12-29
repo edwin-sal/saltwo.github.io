@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6eff6;
+  height: 100vh;
+  color: white;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  align-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 40%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.community {
+  background-color: white;
+  grid-column: 1 / 3;
+  padding: 2vw;
+}
+
+.community p {
+  margin-top: 20px;
+}
+
+h1 {
+  color: #3bb3b0;
+}
+
+.access {
+  color: black;
+}
+
+.guarantee {
+  color: #bee03c;
+  font-weight: 700;
+}
+
+.opacity-60 {
+  opacity: 60%;
+}
+
+.subscription {
+  background-color: #3bb3b0;
+  padding: 2vw;
+}
+
+.subscription p,
+a {
+  margin-top: 20px;
+}
+
+a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: #bee03c;
+  padding: 1em;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+a:hover, a:active {
+    background-color: #adca36;
+}
+
+.price {
+  color: white;
+  font-weight: 700;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  background-color: #54bebc;
+  padding: 2vw;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.content p {
+  margin-top: 5px;
+}
+
+h2 {
+  color: white;
+}
+
+@media (max-width: 800px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        max-width: 80%;
+    }
+
+    .community {
+        grid-row: 1;
+        padding: 5vw;
+    }
+
+    .subscription {
+        grid-row: 2 / 3;
+        padding: 5vw;
+    }
+
+    .info {
+        grid-row: 3 / 4;
+        padding: 5vw;
+    }
+}
